@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Queer Health</title>
+    <link href="stylesheet.css" rel="stylesheet">
     <style>
       body{
         font-family: "ComicSans", cursive;
@@ -12,8 +13,23 @@
   <body>
     <button id="gay"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/98px-Gay_Pride_Flag.svg.png" alt="Gay Pride Flag" height="50px">Gay</button>
     <button id="lesbain"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Lesbian_Pride_Flag_2019.svg/107px-Lesbian_Pride_Flag_2019.svg.png" alt="Lesbian Pride Flag" height="50px">Lesbian</button>
-    <button id="Bisexual/Pansexual"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bisexual_Pride_Flag.svg/150px-Bisexual_Pride_Flag.svg.png" alt="Bisexual Pride Flag" height="50px">Bisexual↓</button>
-    <button id="Transgender"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/150px-Transgender_Pride_flag.svg.png" alt="Transgender Pride Flag" height="50px">Transgender↓</button>
+    <div class="dropdown">
+      <button id="Bisexual" class="dropbtn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Bisexual_Pride_Flag.svg/150px-Bisexual_Pride_Flag.svg.png" alt="Bisexual Pride Flag" height="50px">Bisexual↓</button>
+      <div class="dropdown-content">
+        <button id="Pansexual"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pansexuality_Pride_Flag.svg/150px-Pansexuality_Pride_Flag.svg.png" alt="Pansexual Pride Flag" height="50px">Pansexual</button>
+        <button id="Polysexual"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Polysexuality_Pride_Flag.svg/100px-Polysexuality_Pride_Flag.svg.png" alt="Polysexual Pride Flag" height="50px">Polysexual</button>
+        <button id-"Omnisexual"><img src="https://vignette.wikia.nocookie.net/rainbowpedia/images/e/ef/Omnisexual_flag.png/revision/latest/scale-to-width-down/310?cb=20160825054140" alt="Omnisexual Pride Flag" height="50px">Omnisexual</button>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button id="Transgender" class="dropbtn"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/150px-Transgender_Pride_flag.svg.png" alt="Transgender Pride Flag" height="50px">Transgender↓</button>
+      <div class="dropdown-content">
+        <button id="nonbinary"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nonbinary_flag.svg/150px-Nonbinary_flag.svg.png" alt="NonBinary Pride Flag" height="50px">Non Binary</button>
+        <button id="genderqueer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Genderqueer_Pride_Flag.svg/100px-Genderqueer_Pride_Flag.svg.png" alt="Genderqueer Pride Flag" height="50px">Genderqueer</button>
+        <button id="genderfluid"><imng src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Genderfluidity_Pride-Flag.svg/100px-Genderfluidity_Pride-Flag.svg.png" alt="Genderfluid Pride Flag" height="50px">Genderfluid</button>
+        <button id="agender"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Agender_pride_flag.svg/86px-Agender_pride_flag.svg.png" alt="Agender Pride Flag" height="50px">Agender</button>
+      </div>
+    </div>
     <button id="Asexual"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Asexual_Pride_Flag.svg/150px-Asexual_Pride_Flag.svg.png" alt="Asexual Pride Flag" height="50px">Asexual↓</button>
     <button id="other"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Philadelphia_Pride_Flag.svg/98px-Philadelphia_Pride_Flag.svg.png" alt="Philadelphia Pride Flag" height="50px">Don't see yourself?↓</button>
   </body>
