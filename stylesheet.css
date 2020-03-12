@@ -37,9 +37,6 @@ button{
 .buttontext{
   font-size: 18px;
   text-decoration: none;
-  position: relative;
-  bottom: 20px;
-  right: 75px;
 }
 h3{
   font-style: italic;
