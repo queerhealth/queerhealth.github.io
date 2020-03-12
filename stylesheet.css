@@ -27,6 +27,7 @@
 /*start of body formatting*/
 body{
   font-family: "ComicSans", cursive;
+  background-color: yellow;
 }
 button{
   font-family: "ComicSans", cursive;
@@ -37,6 +38,7 @@ button{
 .buttontext{
   font-size: 18px;
   text-decoration: none;
+  text-align: center;
 }
 h3{
   font-style: italic;
