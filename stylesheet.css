@@ -36,6 +36,10 @@ button{
 }
 .buttontext{
   font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  right: 25px;
+  top: 25px;
 }
 h3{
   font-style: italic;
