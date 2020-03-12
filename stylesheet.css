@@ -13,7 +13,7 @@
   position: absolute;
   background-color: lightgrey;
   min-width: 10px;
-  z-index: 2;
+  z-index: 1;
 }
 .dropdown-content a{
   padding: 5px 5px;
@@ -27,7 +27,7 @@
 /*start of body formatting*/
 body{
   font-family: "ComicSans", cursive;
-  background-color: teal;
+  background-color: maroon;
 }
 button{
   font-family: "ComicSans", cursive;
@@ -38,11 +38,9 @@ button{
 .buttontext{
   font-size: 18px;
   text-decoration: none;
-  z-index: 1;
+  position: relative;
+  bottom: 15px;
 }
 h3{
   font-style: italic;
-}
-img{
-  z-index: 0;
 }
