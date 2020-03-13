@@ -11,7 +11,6 @@
 .dropdown-content{
   display: none;
   position: absolute;
-  border: 5px solid grey;
   min-width: 10px;
   z-index: 1;
 }
@@ -44,4 +43,8 @@ h3{
 a:link, a:visited{
   color: black;
   text-decoration: none;
+}
+button{
+  background-color: white;
+  border: 10px, solid, grey;
 }
