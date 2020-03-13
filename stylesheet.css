@@ -47,4 +47,5 @@ a:link, a:visited{
 button{
   background-color: white;
   border: 10px, solid, grey;
+  text-align: center;
 }
