@@ -25,11 +25,11 @@
 
 /*start of body formatting*/
 body{
-  font-family: "Bellota", sans-serif;
+  font-family: "Raleway", cursive;
   background-color: rgb(204, 204, 237);
 }
 button{
-  font-family: "Bellota", sans-serif;
+  font-family: "Raleway", cursive;
 }
 #gay:hover, #lesbian:hover{
   background-color: white;
