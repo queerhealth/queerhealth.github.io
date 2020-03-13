@@ -46,8 +46,6 @@ a:link, a:visited{
   text-decoration: none;
 }
 button{
-  background-color: white;
-  border: 10px, solid, grey;
   text-align: center;
   float: both;
 }
