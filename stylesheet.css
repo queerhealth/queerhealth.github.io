@@ -48,4 +48,5 @@ button{
   background-color: white;
   border: 10px, solid, grey;
   text-align: center;
+  float: both;
 }
