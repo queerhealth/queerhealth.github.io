@@ -25,11 +25,11 @@
 
 /*start of body formatting*/
 body{
-  font-family: "ComicSans", cursive;
+  font-family: "Optima", sans-serif;
   background-color: rgb(204, 204, 237);
 }
 button{
-  font-family: "ComicSans", cursive;
+  font-family: "Optima", sans-serif;
 }
 #gay:hover, #lesbian:hover{
   background-color: white;
