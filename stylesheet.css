@@ -11,7 +11,7 @@
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: lightgrey;
+  border: 5px solid grey;
   min-width: 10px;
   z-index: 1;
 }
